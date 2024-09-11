@@ -3,7 +3,7 @@
   <name>map_processor_node</name>
   <version>0.0.1</version>
   <description>ROS2 node that processes occupancy grid maps and visualizes them using OpenCV.</description>
-  <maintainer email="your_email@domain.com">Your Name</maintainer>
+  <maintainer email="Jake.W.Nockles@student.uts.edu.au">student</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

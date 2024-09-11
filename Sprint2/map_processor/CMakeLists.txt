@@ -19,7 +19,7 @@ include_directories(
 )
 
 # Create the executable
-add_executable(${PROJECT_NAME} src/map_processor_node.cpp)
+add_executable(${PROJECT_NAME} src/temp.cpp)
 
 # Link libraries
 target_link_libraries(${PROJECT_NAME}

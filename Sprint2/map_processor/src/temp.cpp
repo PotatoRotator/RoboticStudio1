@@ -120,6 +120,8 @@ private:
         cmd_publisher_->publish(twist_msg);
 
         if(std::abs(angle_difference_) < 1.0) {
+            std::cout << "cream" << std::endl;
+            twist_msg.angular.z = 0.0;
             return;
         }
 

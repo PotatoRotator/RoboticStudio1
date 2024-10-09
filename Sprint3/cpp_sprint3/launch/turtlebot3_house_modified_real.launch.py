@@ -38,7 +38,7 @@ def generate_launch_description():
     world = os.path.join(
         get_package_share_directory('cpp_sprint3'),
         'worlds',
-        'office_world_2.world'
+        'rs1_project_world.world'
     )
 
     gzserver_cmd = IncludeLaunchDescription(
